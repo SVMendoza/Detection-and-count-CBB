@@ -1,2 +1,2 @@
 # Detection-and-count-CBB
-Detección y recuento de la broca del café (Hypothenemus hampei) mediante la familia YOLO
+Detection and counting of the coffee berry borer (Hypothenemus hampei) using the YOLO family.
