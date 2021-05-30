@@ -1,9 +1,0 @@
-# here you need to specify the files train, test and validation txt # files created in step 1.
-train: ../trains/train_broca.txt
-val: ../trains/val_broca.txt
-test: ../trains/test_broca.txt
-
-# number of classes in your dataset
-nc: 1
-
-names: ['broca']
