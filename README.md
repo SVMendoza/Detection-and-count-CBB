@@ -6,16 +6,12 @@ We present a folder with the data structure for training the CBB.yaml file of th
 and the fitted models for CBB_yolov5m.pt and CBB_yolov5s.pt
 
 You can use these trained and validated models for CBB detection using a GPU laptop with 2.0 GB ram or use google colab.
-step 1. Create an environment in anaconda prompt
-	conda create -name CBB_yolo
-step2. activate env
-	conda activate CBB_yolo
-	cd c:/
-Step3 
-	install git
-Step 4 
-	clone repository yolov5
-	git clone https://github.com/ultralytics/yolov5  
+
+	conda create -name CBB_yolo #step 1. Create an environment in anaconda prompt
+	conda activate CBB_yolo #step2. activate env
+	cd c:/ #Dir root
+ 	install git #Step3
+	git clone https://github.com/ultralytics/yolov5  #Step 4 	clone repository yolov5
 	cd yolov5
 	pip install -r requirements.txt  # install
 
@@ -53,9 +49,9 @@ This is important in case you do not change max_det the maximum detections the m
 
 Reference:
 
-Redmon, and Farhadi. 2018. YOLOv3: An incremental improvement. p. 6, ArXiv e‐prints. Google Scholar
+Redmon, and Farhadi. 2018. YOLOv3: An incremental improvement. p. 6, ArXiv e‐prints. Google Scholar.
 Tresson et al. 2019. CORIGAN: Assessing multiple species and interactions within images. Methods in Ecology and Evolution. 10. 11: 1888-1893. https://doi.org/10.1111/2041-210X.13281. 
-Tresson URL: https://gitlab.com/ptresson/corigan
+Tresson URL: https://gitlab.com/ptresson/corigan.
 Jocher, et al. 2021. Ultralytics/yolov5: v5.0 - YOLOv5-P6 1280 models, AWS, Supervise.ly and YouTube integrations (Version v5.0). Zenodo. http://doi.org/10.5281/zenodo.4679653. URL: https://github.com/ultralytics/yolov5/tree/master
 
 
