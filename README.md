@@ -6,13 +6,17 @@ We present a folder with the data structure for training the CBB.yaml file of th
 and the fitted models for CBB_yolov5m.pt and CBB_yolov5s.pt
 
 You can use these trained and validated models for CBB detection using a GPU laptop with 2.0 GB ram or use google colab.
-	
-	conda create -name CBB_yolo	#Create an environment in anaconda prompt
-	conda activate CBB_yolo		#step2. activate env
-	cd c:/				#Optional
-	install git #Step3 
-	git clone https://github.com/ultralytics/yolov5  #clone repository yolov5
-	cd c:/yolov5
+step 1. Create an environment in anaconda prompt
+	conda create -name CBB_yolo
+step2. activate env
+	conda activate CBB_yolo
+	cd c:/
+Step3 
+	install git
+Step 4 
+	clone repository yolov5
+	git clone https://github.com/ultralytics/yolov5  
+	cd yolov5
 	pip install -r requirements.txt  # install
 
 You need to move the CBB_yolov5s and CBB_yolov5m in this repo in directory c:\yolov5>weigth
@@ -23,7 +27,7 @@ You need to move the CBB_yolov5s and CBB_yolov5m in this repo in directory c:\yo
 If you training custom data go to: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 you can use the adjusted models as weight
 
-You can colab 
+You can colab see https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb
 
 	from google.colab import drive
 	drive.mount('/content/drive')
@@ -43,8 +47,8 @@ You can colab
 
 	!python detect.py --weights weights/best_CBBs.pt --img 3456 --conf 0.58 --source data/Broca2000/TAM_ORI/MANI --save-txt --device 0
 
-NOTE: In the file yololv5>utils>general in line 434 max_det = 300 change by other number for example max_det =10000
-This is important in case you do not change max_det the maximum detections the model can do is 300
+NOTE: In the file yololv5>utils>general in line 434 #max_det = 300 change by other number for example "max_det =10000"
+This is important in case you do not change "max_det the maximum detections the model can do is #300
 
 
 
