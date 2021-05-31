@@ -7,6 +7,7 @@ and the fitted models for CBB_yolov5m.pt and CBB_yolov5s.pt
 
 You can use these trained and validated models for CBB detection using a GPU laptop with 2.0 GB ram with Anaconda or use google colab.
 <p>In Anaconda </p>
+
 	conda create -name CBB_yolo #step 1. Create an environment in anaconda prompt
 	conda activate CBB_yolo #step2. activate env
 	cd c:/ #Dir root
