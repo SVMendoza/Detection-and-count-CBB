@@ -6,17 +6,13 @@ We present a folder with the data structure for training the CBB.yaml file of th
 and the fitted models for CBB_yolov5m.pt and CBB_yolov5s.pt
 
 You can use these trained and validated models for CBB detection using a GPU laptop with 2.0 GB ram or use google colab.
-	#step 1. Create an environment in anaconda prompt
-	conda create -name CBB_yolo
-	#step2. activate env
-	conda activate CBB_yolo
-	cd c:/
-	#Step3 
-	install git
-	#Step 4 
-	clone repository yolov5
-	git clone https://github.com/ultralytics/yolov5  
-	cd yolov5
+	
+	conda create -name CBB_yolo	#Create an environment in anaconda prompt
+	conda activate CBB_yolo		#step2. activate env
+	cd c:/				#Optional
+	install git #Step3 
+	git clone https://github.com/ultralytics/yolov5  #clone repository yolov5
+	cd c:/yolov5
 	pip install -r requirements.txt  # install
 
 You need to move the CBB_yolov5s and CBB_yolov5m in this repo in directory c:\yolov5>weigth
