@@ -47,8 +47,8 @@ You can colab
 
 	!python detect.py --weights weights/best_CBBs.pt --img 3456 --conf 0.58 --source data/Broca2000/TAM_ORI/MANI --save-txt --device 0
 
-NOTE: In the file yololv5>utils>general in line 434 "max_det = 300" change by other number for example "max_det =10000"
-This is important in case you do not change "max_det" the maximum detections the model can do is 300
+NOTE: In the file yololv5>utils>general in line 434 #max_det = 300 change by other number for example "max_det =10000"
+This is important in case you do not change "max_det the maximum detections the model can do is #300
 
 
 
