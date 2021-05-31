@@ -51,6 +51,11 @@ NOTE: In the file yololv5>utils>general in line 434 max_det = 300 change by othe
 This is important in case you do not change max_det the maximum detections the model can do is 300
 
 
+Reference
+Redmon, and Farhadi. 2018. YOLOv3: An incremental improvement. p. 6, ArXiv e‐prints. Google Scholar
+Tresson et al. 2019. CORIGAN: Assessing multiple species and interactions within images. Methods in Ecology and Evolution. 10. 11: 1888-1893. https://doi.org/10.1111/2041-210X.13281. 
+Tresson URL: https://gitlab.com/ptresson/corigan
+Jocher, et al. 2021. Ultralytics/yolov5: v5.0 - YOLOv5-P6 1280 models, AWS, Supervise.ly and YouTube integrations (Version v5.0). Zenodo. http://doi.org/10.5281/zenodo.4679653. URL: https://github.com/ultralytics/yolov5/tree/master
 
 
 
