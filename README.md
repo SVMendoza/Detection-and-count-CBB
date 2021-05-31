@@ -6,14 +6,14 @@ We present a folder with the data structure for training the CBB.yaml file of th
 and the fitted models for CBB_yolov5m.pt and CBB_yolov5s.pt
 
 You can use these trained and validated models for CBB detection using a GPU laptop with 2.0 GB ram or use google colab.
-step 1. Create an environment in anaconda prompt
+	#step 1. Create an environment in anaconda prompt
 	conda create -name CBB_yolo
-step2. activate env
+	#step2. activate env
 	conda activate CBB_yolo
 	cd c:/
-Step3 
+	#Step3 
 	install git
-Step 4 
+	#Step 4 
 	clone repository yolov5
 	git clone https://github.com/ultralytics/yolov5  
 	cd yolov5
@@ -47,8 +47,8 @@ You can colab
 
 	!python detect.py --weights weights/best_CBBs.pt --img 3456 --conf 0.58 --source data/Broca2000/TAM_ORI/MANI --save-txt --device 0
 
-NOTE: In the file yololv5>utils>general in line 434 #max_det = 300 change by other number for example "max_det =10000"
-This is important in case you do not change "max_det the maximum detections the model can do is #300
+NOTE: In the file yololv5>utils>general in line 434 max_det = 300 change by other number for example max_det =10000
+This is important in case you do not change max_det the maximum detections the model can do is 300
 
 
 
