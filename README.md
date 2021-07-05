@@ -19,7 +19,7 @@ You can use these trained and validated models for CBB detection using a GPU lap
 You need to move the CBB_yolov5s and CBB_yolov5m in this repo in directory c:\yolov5>weigth
 
 	python detect.py --weights ./runs/train/exp15/weights/CBB_yolov5s.pt --img 3456 --conf 0.58 --source ./data/Broca2000/examp --save-txt 	#Example 
-	python detect.py --weights ./runs/train/exp15/weights/CBB_yolov5m.pt --img 3456 --conf 73 --source ./data/Broca2000/examp --save-txt 		#Example 
+	python detect.py --weights ./runs/train/exp15/weights/CBB_yolov5m.pt --img 3456 --conf 0.73 --source ./data/Broca2000/examp --save-txt 	#Example 
 
 If you training custom data go to: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 you can use the adjusted models as weight
