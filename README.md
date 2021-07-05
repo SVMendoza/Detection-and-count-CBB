@@ -1,6 +1,6 @@
 # Detection-and-count-CBB
 Detection and counting of the coffee berry borer (Hypothenemus hampei) using the YOLO family.
-![Optional Text](../master/myFolder/exam1.jpg)
+![myimage-alt-tag](../master/Detection-and-count-CBB/exam1.jpg)
 
 The files presented correspond to the weights obtained from the training of the two yolov5 models.
 We present a folder with the data structure for training the CBB.yaml file of the project.
