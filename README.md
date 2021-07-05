@@ -49,6 +49,8 @@ NOTE: In the file yololv5>utils>general in line 434 **max_det = 300** change by 
 This is important in case you do not change **max_det** the maximum detections the model can do is 300
 
 
+Citation: ***Vilchez-Mendoza S., Bagny Beilhe L., Bommel P., Cilas C., Ronin A., Carval D.: Detection and counting of coffee berry borer (Hypothenemus hampei): using computer vision algorithm. 28th International Conference on Coffee Science (ASIC). 29/2021.***
+
 **Reference:**
 
 <p>Redmon, and Farhadi. 2018. YOLOv3: An incremental improvement. p. 6, ArXiv e‐prints. Google Scholar</p>
